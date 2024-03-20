@@ -1,0 +1,59 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/Other/CascadeStyleSheet.css to edit this template
+*/
+/* 
+    Created on : Dec 1, 2023, 8:45:54 AM
+    Author     : LEGION 5A
+*/
+
+.login-form{
+    -fx-background-color:#3264A6;
+}
+
+.card-form{
+    -fx-background-color:#2a5172;
+    -fx-background-radius:15px;
+}
+
+.close{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+
+
+.minimize{
+    -fx-background-color:transparent;
+    -fx-cursor:hand;
+}
+
+
+
+.textfield {
+    -fx-border-color: #ffffff; /* Warna border */
+    -fx-background-color: #ffffff; /* Warna latar belakang */
+    -fx-border-radius: 0; /* Menghilangkan border radius (jika sebelumnya ada) */
+    -fx-background-radius: 0; /* Menghilangkan background radius (jika sebelumnya ada) */
+}
+
+.textfield:focused {
+    -fx-border-width: 1px; /* Lebar border saat fokus */
+}
+
+
+
+.login-btn {
+    -fx-background-color: #3264A6;
+    -fx-border-color: #ffffff; /* Warna border */
+    -fx-background-radius: 0; /* Menghilangkan background radius */
+    -fx-cursor: hand;
+    -fx-text-fill: #ffffff;
+}
+
+.login-btn:hover {
+    -fx-background-color: #ffffff;
+    -fx-text-fill: #3264A6;
+    -fx-border-color: #3264A6;
+}
+
